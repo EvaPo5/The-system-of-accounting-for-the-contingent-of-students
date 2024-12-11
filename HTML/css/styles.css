@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0;   
+}
+header {
+    background-color: rgb(138, 182, 169);
+    height: 100px;
+    width: 100%;         
+}
+main{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    
+}
+footer {
+    background-color: rgb(138, 182, 169);
+    height: 100px;
+    display: flex;   
+}
+
+
+.con{
+    background-color: rgb(214, 226, 224);
+    height: 950px;
+    width: 2250px;
+    transform: translate();
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    
+}
+.con1{
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+    margin: 60px 850px;
+    border-radius: 10px;
+}
+.con2{
+    background-color: rgb(214, 226, 224);
+    height: 1100px;
+    width: 600px;
+    transform: translate();
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+ 
+}
+.con3{
+    background-color: rgb(214, 226, 224);
+    height: 1100px;
+    width: 1750px;
+    transform: translate();
+    position: relative;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%, -50%);  
+
+}
+
+
+h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 3em;
+}
+h2{
+    text-align: center; 
+    font-size: 2em;
+    margin: 20px;
+ 
+}
+
+
+input{
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 875px;
+    font-size: 1.8em;
+
+}
+.button {
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 875px;
+    font-size: 1.8em;
+}
+.button2 {
+    background-color:  rgb(255, 255, 255);
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.8em;
+    margin: 30px 8% 30%;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.v{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin: 50px 875px;
+    font-size: 1.8em;
+
+    
+}
+.vv{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.8em;
+    margin: 20px;
+    
+    
+    
+    
+
+}
+.p{
+    background-color:  rgb(255, 255, 255);
+    text-align: left;
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin: 20px;
+    
+   
+
+    
+
+}
+
+.tad{
+    border: solid;
+    text-align: center;
+    font-size: 2em;
+    width: 70%;
+    background-color: white;
+
+}
+
+
+
+
