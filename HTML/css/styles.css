@@ -5,7 +5,17 @@ html, body {
 header {
     background-color: rgb(138, 182, 169);
     height: 100px;
-    width: 100%;         
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px;        
+}
+
+.header {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 main{
     background-color: rgb(255, 255, 255);
@@ -20,7 +30,9 @@ main{
 footer {
     background-color: rgb(138, 182, 169);
     height: 100px;
-    display: flex;   
+    width: 100%; 
+   
+       
 }
 
 
@@ -33,7 +45,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: fixed;
+    
     
 }
 .con1{
@@ -68,6 +80,18 @@ footer {
 
 }
 
+.con4{
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
 
 h1{
     text-align: center;
@@ -75,14 +99,16 @@ h1{
     font-size: 3em;
 }
 h2{
-    text-align: center; 
     font-size: 2em;
-    margin: 20px;
+    text-align: center; 
+    margin: 0; 
+    flex-grow: 1;
+    
  
 }
 
 
-input{
+.vhod{
     background-color:  rgb(255, 255, 255);
     text-align: center;
     width: 500px;
@@ -134,43 +160,58 @@ button:hover{
     
 }
 .vv{
-    width: 120px;
+    width: 120px; 
     height: 50px;
-    text-align: center;
-    background-color:  rgb(255, 255, 255);
+    text-align: center; 
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    font-size: 1.8em;
-    margin: 20px;
-    
-    
-    
-    
-
+    font-size: 1.2em; 
+    margin: 0 10px; 
 }
+    
 .p{
-    background-color:  rgb(255, 255, 255);
-    text-align: left;
-    width: 350px;
+    width: 400px; 
     height: 50px;
+    text-align: left; 
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    font-size: 1em;
-    margin: 20px;
-    
-   
-
-    
+    font-size: 1em; 
+    margin: 0 10px; 
 
 }
 
-.tad{
-    border: solid;
+td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px 20px
+}
+.tad {
+    border: 2px solid;
+    border-collapse: collapse;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     width: 70%;
     background-color: white;
+    margin-top: 10%;
+    
 
+}
+
+.add{
+    background-color: white;
+    font-size: 1.8em;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+    margin-left: 30%;
+    border: none;
+    margin-top: 3%;
+    
+    border-radius: 10px;
+
+    
 }
 
 

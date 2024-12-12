@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Личный кабинет администратора</title>
+    <title>Добавить пользователя</title>
     <link rel="stylesheet" href="css/styles.css">
     
 
@@ -39,7 +39,23 @@
         </div>
 
         <div class="con3">
+            <div class='con4'>Добавление пользователя</div>
+            <details class="add">
+                <summary>Тип пользователя</summary>
+               
+                    <p>Администратор</p>
+                    <p>Оператор</p>
+                    <p>Преподаватель</p>
+                
+            </details>
+            <input class="add" type="text" placeholder="Фамилия" name="fam"  required>
+            <input class="add" type="text" placeholder="Имя" name="name" required>
+            <input class="add" type="text" placeholder="Отчество" name="otch" required>
+            <input class="add" type="login" placeholder="Логин" name="log" required>
+            <input class="add" type="password" placeholder="Пароль" name="psw" required>
             
+            <button type="submit" class="add">Добавить</button>
+                
         </div>
         
             
