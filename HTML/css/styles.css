@@ -22,8 +22,9 @@ main{
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
+    
     
     
 }
@@ -31,6 +32,9 @@ footer {
     background-color: rgb(138, 182, 169);
     height: 100px;
     width: 100%; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px; 
    
        
 }
@@ -154,7 +158,8 @@ button:hover{
     background-color:  rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    margin: 50px 875px;
+    margin-top: 20px;
+    margin-left: 40%;
     font-size: 1.8em;
 
     
@@ -169,6 +174,23 @@ button:hover{
     font-size: 1.2em; 
     margin: 0 10px; 
 }
+
+.v1{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 22%;
+    font-size: 1.8em;
+    
+
+}
     
 .p{
     width: 400px; 
@@ -179,6 +201,19 @@ button:hover{
     border-radius: 10px;
     font-size: 1em; 
     margin: 0 10px; 
+
+}
+
+.p2{ 
+    width: 400px; 
+    height: 50px;
+    text-align: left; 
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 1em; 
+    margin-left: 35%;
+    margin-top: 2%;
 
 }
 
@@ -194,9 +229,16 @@ td, th{
     font-size: 2.5em;
     width: 70%;
     background-color: white;
-    margin-top: 10%;
-    
-
+    margin-top: 10% ;
+}
+.tad1 {
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 2.5em;
+    width: 70%;
+    background-color: white;
+    margin-top: 7% ;
 }
 
 .add{
@@ -208,10 +250,68 @@ td, th{
     margin-left: 30%;
     border: none;
     margin-top: 3%;
-    
-    border-radius: 10px;
+    border-radius: 10px;    
+}
 
-    
+.m{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 17%;
+    margin-left: 15%;
+    font-size: 1.8em;
+}
+
+.r{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 17%;
+    margin-left: 20%;
+    font-size: 1.8em;
+}
+
+.m1{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 30%;
+    margin-left: 15%;
+    font-size: 1.8em;
+}
+
+.r1{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 5px;
+    left: 50vw;
+    text-align: center;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size: 1.8em;
+
 }
 
 
